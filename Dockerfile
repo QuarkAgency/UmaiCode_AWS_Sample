@@ -4,4 +4,4 @@ FROM node:20
 COPY . .
 
 ## Start the application
-CMD ["node", "dist/umaicode-angular-app/server/server.mjs"]
+CMD ["node", "dist/umaicode-angular-app/server/server.mjs"] 
