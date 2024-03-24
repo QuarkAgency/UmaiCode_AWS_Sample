@@ -1,7 +1,7 @@
-FROM node:18
+FROM node:20
 
 ## Copy source code
 COPY . .
 
 ## Start the application
-CMD ["npm", "run", "start"]
+CMD ["node", "dist/umaicode-angular-app/server/server.mjs"]

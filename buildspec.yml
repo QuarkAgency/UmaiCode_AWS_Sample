@@ -9,7 +9,6 @@ phases:
     commands:
       - echo Build started on `date`
       - npm install
-      - npm run config
       - npm run build
       - echo Building the Docker image...
       - docker build -t $IMAGE_REPO_NAME .
